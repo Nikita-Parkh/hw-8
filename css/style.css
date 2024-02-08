@@ -1,0 +1,84 @@
+.text-box h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+.text-box div>p{
+    color: red;
+}
+.text-box p:nth-of-type(3){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+table{
+    border-collapse: collapse;
+    font-size:x-large;
+}
+:root{
+    --colorBlack:#000000;
+    --colorWhite:#ffffff;
+
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size:larger;
+}
+table th,td{
+    padding: 8px;
+    border: 3px solid var(--colorBlack);
+}
+th{
+    background-color: red;
+    color:var(--colorBlack);
+}
+tr td:first-child{
+    background-color: gold;
+   
+}
+tr td:nth-child(2){
+    background-color: greenyellow;
+}
+tr td:nth-child(3){
+    background-color: pink;
+}
+tr td:nth-child(4){
+    background-color: coral;
+}
+tr td:nth-child(5){
+    background-color: blueviolet;
+}
+/* Додаємо всім hover */
+th:hover{
+    background-color:var(--colorBlack);
+    color: white;
+    text-shadow: 5px 1px 5px #ffffff;
+}
+tr td:first-child:hover{
+    background-color: brown;
+    color: var(--colorWhite);
+    text-shadow: 5px 1px 5px #ffffff;
+}
+tr td:nth-child(2):hover{
+    background-color:darkblue;
+    color: var(--colorWhite);
+    text-shadow: 5px 1px 5px #ffffff;
+}
+tr td:nth-child(3):hover{
+    background-color:blueviolet;
+    color: var(--colorWhite);
+    text-shadow: 5px 1px 5px #ffffff;
+}
+tr td:nth-child(4):hover{
+    background-color:darkgoldenrod;
+    color: var(--colorWhite);
+    text-shadow: 5px 1px 5px #ffffff;
+}
+tr td:nth-child(5):hover{
+    background-color:darkslateblue;
+    color: var(--colorWhite);
+    text-shadow: 5px 1px 5px #ffffff;
+}
